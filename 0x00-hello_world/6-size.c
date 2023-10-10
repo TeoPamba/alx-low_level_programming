@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
- * main - Entry pint
+ * main - Entry point
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	print("Size of char: %zi byte(s) \n", sizeof(char));
-	print("Size of char: %zi byte(s) \n", sizeof(int));
-	print("Size of char: %zi byte(s) \n", sizeof(long));
-	print("Size of char: %zi byte(s) \n", sizeof(long long int));
-	print("Size of char: %zi byte(s) \n", sizeof(float));
+	printf("Size of char: %zi byte(s) \n", sizeof(char));
+	printf("Size of char: %zi byte(s) \n", sizeof(int));
+	printf("Size of char: %zi byte(s) \n", sizeof(long));
+	printf("Size of char: %zi byte(s) \n", sizeof(long long int));
+	printf("Size of char: %zi byte(s) \n", sizeof(float));
 	return (0);
 }
