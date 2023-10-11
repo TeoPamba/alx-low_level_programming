@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Retrun: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -9,7 +9,7 @@ int main(void)
 
 	while (alpha <= 'z')
 	{
-		if (alpha == 'q' && alpha =='e')
+		if (alpha == 'q' || alpha == 'e')
 		{
 			alpha++;
 			continue;
