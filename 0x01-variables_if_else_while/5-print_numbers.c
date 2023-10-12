@@ -7,7 +7,7 @@ int main(void)
 {
 	int dig = 0;
 
-	while (dig <= 10)
+	while (dig < 10)
 	{
 		putchar(dig + '0');
 		dig++;
