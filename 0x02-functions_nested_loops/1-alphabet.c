@@ -1,16 +1,15 @@
 #include "main.h"
 /**
  * print_alphabet - Print all alphabets in lover case
- * @c: character to be printed
  * Return: return nothing
  */
 void print_alphabet(void)
 {
-	char c;
+	char letter;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		_putchar(c);
+		_putchar(letter);
 	}
 	_putchar('\n');
 }
