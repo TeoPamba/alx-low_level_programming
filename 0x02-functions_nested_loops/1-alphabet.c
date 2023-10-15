@@ -2,7 +2,7 @@
 /**
  * print_alphabet - Print all alphabets in lover case
  * @c: character to be printed
- * Return: return nothing 
+ * Return: return nothing
  */
 void print_alphabet(void)
 {
