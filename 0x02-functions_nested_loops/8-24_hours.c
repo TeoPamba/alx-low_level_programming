@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * jack_bauer : prints every minute
+ * jack_bauer - prints every minute
+ * @ho, h1, m0, m1: values for hours and minutes
  * Return: void
  */
 void jack_bauer(void)
@@ -12,12 +13,13 @@ void jack_bauer(void)
 
 	for (h0 = 0; h0 <= 2; h0++)
 	{
-		for (h1 = 0; h1 <= 9; h1++){
+		for (h1 = 0; h1 <= 9; h1++)
+		{
 			for (m0 = 0; m0 < 6; m0++)
 			{
 				for (m1 = 0; m1 <= 9; m1++)
 				{
-					if(h0 == 2 && h1 == 4 && m0 == 0 && m1 == 0)
+					if (h0 == 2 && h1 == 4 && m0 == 0 && m1 == 0)
 					{
 						return;
 					}
