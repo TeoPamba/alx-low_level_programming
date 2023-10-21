@@ -13,7 +13,7 @@ void times_table(void)
 		{
 			int mult = a * b;
 
-			if (mult <= 9 )
+			if (mult <= 9)
 			{
 				printf("%d,  ", mult);
 			}
