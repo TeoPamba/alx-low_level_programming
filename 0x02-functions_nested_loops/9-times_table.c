@@ -21,8 +21,11 @@ void times_table(void)
 					printf("%d,  ", mult);
 			}
 			else
-			{
-				printf("%d, ", mult);
+			{	
+				if (b == 9)
+					printf("%d", mult);
+				else
+					printf("%d, ", mult);
 			}
 		}
 		printf("\n");
