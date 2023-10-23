@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main - print numbers 1 to 100 with fizz at multiples of 3 and buzz at multiples of
- * 	five and fizzbuzz for both
+ * main - print numbers 1 to 100 with fizz, Buzz or FizzBuzz
  * Return: Always 0
  */
 int main(void)
@@ -10,7 +9,7 @@ int main(void)
 
 	for (num = 1; num <= 100; num++)
 	{
-		if((num % 3) == 0 && (num % 5) == 0)
+		if ((num % 3) == 0 && (num % 5) == 0)
 		{
 			printf("fizzBuzz");
 		}
